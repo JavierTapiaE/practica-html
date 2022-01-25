@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Contacto</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+
+	<meta charset="UTF-8"/>
+</head>
+<div class="nav">
+	<a href="index.html">Pagina principal</a>
+</div>
+<body>
+	<h1>Contacto</h1>
+	<form action="formulario.html">
+		<div>
+		<label for="nombre">
+			<input  type="text" name="Nombre" placeholder="Nombre" required="">
+		</label>
+		<label>
+			<input type="email" name="Correo" placeholder="Correo electronico" required="">
+		</label>
+		</div>
+		<div>
+		<label for="genero">
+			<input id="genero" type="radio" name="masculino-femenino" value="genero" required="">Masculino
+			<input id="genero" type="radio" name="masculino-femenino" value="genero" required="">Femenino
+		</label>
+		</div>
+		<div>
+		<label>
+			<input type="password" name="Contraseña" placeholder="Contraseña" required="">
+		</label>
+		<label><textarea name="textarea"></textarea></label>
+	    </div>
+		<div>
+		<select name="select">
+			<option value="value1">Guadalajara</option>
+			<option value="value2" selected>Zapopan</option>
+			<option value="value3">Tonala</option>
+			<option value="value4">Otra</option>
+		</select>
+		</div>
+		<label for="contacto">
+			<input id="contacto" type="checkbox" name="Contactos" value="contacto" required="">Me interesa contactarte
+		</label>
+		<div>
+		<input type="submit" name="Enviar">
+		</div>
+	</form>
+
+</body>
+</html>
